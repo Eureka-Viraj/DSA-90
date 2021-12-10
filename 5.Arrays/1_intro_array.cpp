@@ -2,6 +2,9 @@
 #include<climits>
 using namespace std;
 
+int ch(int n){
+    return 1;
+}
 
 int main()
 {
@@ -14,12 +17,10 @@ int main()
     int maxNo = INT_MIN;
     int minNo = INT_MAX;
     for(int i=0; i<n; i++){
-        maxNo = max(arr[i],maxNo);
+        maxNo = max(arr[i], maxNo);
         minNo = min(arr[i],minNo);
     }
-    cout << maxNo<< endl;
+    cout << maxNo << endl;
     cout << minNo << endl;
-
-
     return 0;
 }
