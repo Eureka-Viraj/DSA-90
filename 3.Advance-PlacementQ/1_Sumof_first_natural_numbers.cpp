@@ -2,11 +2,11 @@
 using namespace std;
 
 int sum(int n){
-    int sum = 0;
+    int add =0;
     for(int i=0; i<=n; i++){
-        sum +=i;
+        add = add+i;
     }
-    return sum;
+    return add;
 }
 
 int main()
